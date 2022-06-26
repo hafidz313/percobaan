@@ -1,7 +1,7 @@
 class ModelBacaan {
-  String? id;
-  String? arabic;
+  int? id;
   String? name;
+  String? arabic;
   String? latin;
   String? terjemahan;
 

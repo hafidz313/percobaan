@@ -1,6 +1,7 @@
 import 'dart:html';
 import 'dart:ui';
 import 'package:flutter/material.dart';
+import 'package:percobaan/page/bacaan_sholat.dart';
 import 'package:percobaan/page/niat_Sholat_page.dart';
 
 class MainPage extends StatefulWidget {
@@ -61,7 +62,12 @@ class _MainPageState extends State<MainPage> {
                   child: InkWell(
                     highlightColor: Colors.transparent,
                     splashColor: Colors.transparent,
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: ((context) => BacaanSholat())));
+                    },
                     child: Column(
                       children: const <Widget>[
                         Image(
