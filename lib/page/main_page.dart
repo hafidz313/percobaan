@@ -1,6 +1,7 @@
 import 'dart:html';
 import 'dart:ui';
 import 'package:flutter/material.dart';
+import 'package:percobaan/page/ayat_kursi_page.dart';
 import 'package:percobaan/page/bacaan_sholat.dart';
 import 'package:percobaan/page/niat_Sholat_page.dart';
 
@@ -79,7 +80,7 @@ class _MainPageState extends State<MainPage> {
                           height: 10,
                         ),
                         Text(
-                          "Tata cara",
+                          "Bacaan Sholat",
                           style: TextStyle(
                               fontSize: 14, fontWeight: FontWeight.bold),
                         )
@@ -97,7 +98,12 @@ class _MainPageState extends State<MainPage> {
                   child: InkWell(
                     highlightColor: Colors.transparent,
                     splashColor: Colors.transparent,
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: ((context) => AyatKursi())));
+                    },
                     child: Column(
                       // ignore: prefer_const_literals_to_create_immutables
                       children: <Widget>[
