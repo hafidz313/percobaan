@@ -37,7 +37,7 @@ class _MainPageState extends State<MainPage> {
                     child: Column(
                       children: const <Widget>[
                         Image(
-                          image: AssetImage(""),
+                          image: AssetImage("assets/images/bg_quran.jpeg"),
                           height: 100,
                           width: 100,
                         ),
@@ -72,7 +72,7 @@ class _MainPageState extends State<MainPage> {
                     child: Column(
                       children: const <Widget>[
                         Image(
-                          image: AssetImage(""),
+                          image: AssetImage("assets/images/bg_doa.jpeg"),
                           height: 100,
                           width: 100,
                         ),
@@ -108,7 +108,8 @@ class _MainPageState extends State<MainPage> {
                       // ignore: prefer_const_literals_to_create_immutables
                       children: <Widget>[
                         const Image(
-                          image: const AssetImage(" "),
+                          image:
+                              const AssetImage("assets/images/ic_bacaan.jpeg "),
                           height: 100,
                           width: 100,
                         ),
