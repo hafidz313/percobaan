@@ -1,5 +1,5 @@
 import 'dart:html';
-import 'dart:ui';
+import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:percobaan/page/ayat_kursi_page.dart';
 import 'package:percobaan/page/bacaan_sholat.dart';
@@ -108,8 +108,7 @@ class _MainPageState extends State<MainPage> {
                       // ignore: prefer_const_literals_to_create_immutables
                       children: <Widget>[
                         const Image(
-                          image:
-                              const AssetImage("assets/images/ic_bacaan.jpeg "),
+                          image: AssetImage("assets/images/ic_bacaan.jpeg "),
                           height: 100,
                           width: 100,
                         ),
@@ -117,7 +116,7 @@ class _MainPageState extends State<MainPage> {
                           height: 10,
                         ),
                         const Text(
-                          "keutamaan shalat 5 waktu",
+                          "Ayat kursi Beserta Tafsir",
                           style: TextStyle(
                               fontSize: 14, fontWeight: FontWeight.bold),
                         )
