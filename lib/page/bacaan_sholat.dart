@@ -77,12 +77,6 @@ class _BacaanSholatState extends State<BacaanSholat> {
                       bottomLeft: Radius.circular(30),
                       bottomRight: Radius.circular(30),
                     ),
-                    child: Image.asset(
-                      "assets/images/bg_doa.png",
-                      width: 330,
-                      height: 200,
-                      fit: BoxFit.fitWidth,
-                    ),
                   ),
                 ),
               ],

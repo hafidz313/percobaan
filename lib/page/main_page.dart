@@ -16,14 +16,14 @@ class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Color.fromARGB(255, 108, 250, 217),
       body: SafeArea(
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Container(
-                margin: const EdgeInsets.all(10),
+                margin: const EdgeInsets.all(20),
                 child: Expanded(
                   child: InkWell(
                     highlightColor: Colors.transparent,
@@ -36,11 +36,6 @@ class _MainPageState extends State<MainPage> {
                     },
                     child: Column(
                       children: const <Widget>[
-                        Image(
-                          image: AssetImage("assets/images/bg_quran.jpeg"),
-                          height: 100,
-                          width: 100,
-                        ),
                         SizedBox(
                           height: 10,
                         ),
@@ -71,11 +66,6 @@ class _MainPageState extends State<MainPage> {
                     },
                     child: Column(
                       children: const <Widget>[
-                        Image(
-                          image: AssetImage("assets/images/bg_doa.jpeg"),
-                          height: 100,
-                          width: 100,
-                        ),
                         SizedBox(
                           height: 10,
                         ),
@@ -107,11 +97,6 @@ class _MainPageState extends State<MainPage> {
                     child: Column(
                       // ignore: prefer_const_literals_to_create_immutables
                       children: <Widget>[
-                        const Image(
-                          image: AssetImage("assets/images/ic_bacaan.jpeg "),
-                          height: 100,
-                          width: 100,
-                        ),
                         const SizedBox(
                           height: 10,
                         ),

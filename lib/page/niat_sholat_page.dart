@@ -78,10 +78,6 @@ class _Niat_SholatState extends State<Niat_Sholat> {
                       topLeft: Radius.circular(30),
                       bottomLeft: Radius.circular(30),
                       bottomRight: Radius.circular(30)),
-                  child: Image.asset(
-                    'assets/images/bacaan.png',
-                    width: 330,
-                  ),
                 ),
               )
             ],

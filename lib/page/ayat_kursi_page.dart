@@ -66,12 +66,6 @@ class _AyatKursiState extends State<AyatKursi> {
                       bottomLeft: Radius.circular(30),
                       bottomRight: Radius.circular(30),
                     ),
-                    child: Image.asset(
-                      "assets/images/bg_quran.jpg",
-                      width: 330,
-                      height: 200,
-                      fit: BoxFit.fill,
-                    ),
                   ),
                 ),
                 Align(
